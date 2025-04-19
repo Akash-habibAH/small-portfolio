@@ -1,3 +1,6 @@
 # small-portfolio
 file setup
-images added in main folder
+<p>
+ images added in main folder
+</p>
+
