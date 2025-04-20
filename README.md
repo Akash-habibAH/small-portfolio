@@ -43,3 +43,5 @@ project-folder/
 <p>Responsive behavior is handled for screen widths below 550px.</p>
 
 <p>Smooth transitions are applied on :hover and :focus for better UX.</p>
+<b>live link</b>
+https://6804cc38c11323b3b56198bd--darling-baklava-f34fb4.netlify.app/
