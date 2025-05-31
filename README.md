@@ -45,4 +45,4 @@ project-folder/
 
 <p>Smooth transitions are applied on :hover and :focus for better UX.</p>
 <b>live link</b>
-https://6804cc38c11323b3b56198bd--darling-baklava-f34fb4.netlify.app/
+https://darling-baklava-f34fb4.netlify.app/
