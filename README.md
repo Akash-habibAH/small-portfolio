@@ -21,7 +21,7 @@ Features</b>
 
 <p>Interactive links with hover and focus effects</p>
 
-<p>Font used: Inter, imported from Google Fonts</p>
+<p>Font used: Inter, use from public/fonts</p>
 
 <p>Container background color: hsl(0, 0%, 12%)</p>
 
