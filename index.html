@@ -1,32 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Small Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-</head>
-<body>
-    <div class="mainBox">
-        <div class="container">
-            <figure>
-                <img class="profileImg" src="avatar-jessica.jpeg" alt="profile image!">
-                <figcaption>Jessica Randall</figcaption>
-            </figure>
-            <p id="addressP">London,United Kingdom</p>
-            <p id="infoP">"Front-end developer and avid reader"</p>
-            <div class="dispalyButtons">
-                <button>GitHub</button>
-                <button>FrontEnd Mentor</button>
-                <button>Linkden</button>
-                <button>Twitter</button>
-                <button>Instagram</button>
-            </div>
-        </div>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jessica Randall is a front-end developer and avid reader based in London, United Kingdom. She specializes in creating responsive and user-friendly web applications."
+    />
+    <meta
+      name="keywords"
+      content="Jessica Randall, front-end developer, web development, responsive design, user experience, London, United Kingdom"
+    />
+    <meta name="author" content="Jessica Randall" />
+
+    <title>Jessica Randall</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="public/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <figure class="profile">
+          <img class="profile__img" src="public/avatar-jessica.jpeg" alt="" />
+          <figcaption class="profile__caption">jessica randall</figcaption>
+        </figure>
+        <p class="address">london,united kingdom</p>
+        <h1 class="info-heading">"Front-end developer and avid reader"</h1>
+        <nav class="navbar" aria-label="social media links">
+          <ul class="navbar-list">
+            <li>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="navbar-list__item-link"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frontend.mentor"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="navbar-list__item-link"
+              >
+                FrontEnd Mentor
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="navbar-list__item-link"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="navbar-list__item-link"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="navbar-list__item-link"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
